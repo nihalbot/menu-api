@@ -29717,7 +29717,7 @@ const restaurantData = [
   },
 ];
 
-app.get("/restaurants", (req, res) => {
+app.get("/", (req, res) => {
   res.json(restaurantData);
 });
 
